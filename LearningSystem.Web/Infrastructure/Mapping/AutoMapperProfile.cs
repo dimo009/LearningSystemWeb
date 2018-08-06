@@ -3,13 +3,12 @@ namespace LearningSystem.Web.Infrastructure.Mapping
 {
     using AutoMapper;
     using System;
-    using System.Reflection;
-    using System.Collections.Generic;
     using System.Linq;
-    using System.Threading.Tasks;
 
     public class AutoMapperProfile : Profile
     {
+
+
         public AutoMapperProfile()
         {
             var allTypes = AppDomain
